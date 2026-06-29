@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo"><span>PORTFOLIO</span></a>
+            <nav class="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        </header>
+<section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="subtitle">Welcome to my portfolio</span>
+                <h1 class="headline">Building Functional & User-Focused Web Solutions</h1>
+                <p class="summary">
+                    I am a web developer focused on converting  complex problems into clean digital experiences.
+                </p>       
+                               <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+  <div class="hero-image">
+                <div class="image-wrapper">
+                  
+                    <img src=https://cdn-icons-png.magnific.com/128/1271/1271722.png alt="Professional Portrait" id="profileImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                 <div class="about-text">
+                    <p>
+                        I am a  web developer with a background in designing, building, and maintaining web applications. My path in development is driven by a curiosity about how things work
+                         under the hood and a commitment to writing clean, maintainable code.
+                    </p>
+                    <p>
+                        I work across both client-side and server-side development, aiming to bridge the gap between user interface design and backend logic.
+                    </p>
+                    
+                    <!-- Interactive Info Tabs -->
+                    <div class="tabs-container">
+                        <div class="tab-headers">
+                            <button class="tab-btn active" data-tab="experience">Experience</button>
+                            <button class="tab-btn" data-tab="education">Education</button>
+                        </div>
+                        <div class="tab-contents">
+                            <!-- Experience Tab -->
+                            <div class="tab-pane active" id="experience">
+                                <div class="timeline-item">
+                                    <div class="timeline-meta">
+                                        <span class="timeline-date">2026 - Present</span>
+                                        <span class="timeline-org">Spark Tech</span>
+                                    </div>
+                                    <h4 class="timeline-title">Web Developer</h4>
+                                    <p class="timeline-desc">Develop and maintain client websites, optimize application performance, and collaborate with cross-functional teams to deliver accessible user interfaces.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-meta">
+                                        <span class="timeline-date">2025</span>
+                                        <span class="timeline-org">WebCraft Studio</span>
+                                    </div>
+                                    <h4 class="timeline-title"> Full Stack Developer</h4>
+                                    <p class="timeline-desc">Developed and maintained web applications using modern JavaScript frameworks and backend technologies.</p>
+                                </div>
+                            </div>
+                            <!-- Education Tab -->
+                            <div class="tab-pane" id="education">
+                                <div class="timeline-item">
+                                    <div class="timeline-meta">
+                                        <span class="timeline-date">2021- 2025</span>
+                                        <span class="timeline-org">State University</span>
+                                    </div>
+                                    <h4 class="timeline-title">BTech in Computer Science</h4>
+                                    <p class="timeline-desc">Focused coursework on software engineering, web development principles, database management, and data structures.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Structuring semantic, accessible web content.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, Flexbox, Grid, and layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+, and asynchronous programming.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt skill-icon"></i>
+                    <h3>Git Control</h3>
+                    <p>Managing project history and collaboration using Git.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-python skill-icon"></i>
+                    <h3>Python</h3>
+                    <p>Machine learning, data analysis, Object-Oriented Programming.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+             
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Simple Calculator</h3>
+                        <p>A responsive calculator application that performs basic arithmetic operations.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+               
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Fixed Navigation Menu</h3>
+                        <p>A responsive navigation menu that remains fixed at the top of the page during scrolling, enhancing user experience.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                            <span>HTML</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                <div class="project-content">
+                        <h3>Expense Tracker</h3>
+                        <p>A simple application for tracking daily expenses with a clean and intuitive interface.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-stopwatch"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stop Watch</h3>
+                        <p>An application that allows users to track elapsed time with start, stop, and reset functionality.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>CSS Grid</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Feel free to reach out if you have any questions or would like to discuss a potential project alignment.</p>
+                    <div class="info-details">
+                        <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> City, Country</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer class="footer">
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
